@@ -1,0 +1,30 @@
+
+.box{
+    width: 21vw;
+    min-height: 20vh;
+    border-radius: 5vh;
+    background-color: rgba(195, 152, 236, 0.233);
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 7px 8px -7px;
+}
+.botao-tarefa{
+    align-self: center;
+}
+.texto-tarefa{
+    font-size: 1rem;
+    
+}
+footer{
+    bottom: 0;
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    padding: 20px;
+    justify-content: center;
+}
+#tarefa-digitada{
+    width: 45%;
+    margin-right: 5%;
+}
